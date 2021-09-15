@@ -20,19 +20,23 @@ const playerTwo ={
 }
 
 
-funstion printName(player){
+function printName(player){
 	
 	console.log(player.name)
 
 }
 
 console.log(playerOneName)
-console.log(plaerTwoName)
+console.log(playerTwoName)
 
 // function for the winning player
 
 function gameOver(winningPlayer){
 	
 	console.log("Congratulations!")
-	console.log(winninPlayer.name + " Is the winner!")
+	console.log(winningPlayer.name + " Is the winner!")
 }
+
+
+
+
